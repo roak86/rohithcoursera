@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rohithcoursera
+  host: rohithcoursera
+  disk_quota: 1024M
+  services:
+  - rohithcoursera-cloudantNoSQLDB
+  - rohithcoursera-iotf-service
